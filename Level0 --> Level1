@@ -1,1 +1,18 @@
+Challenge:
+Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
+Hint:
+The password for the next level is stored in a file called readme, located in the home directory.
+Solution:
+
+Step 1: Connect using ssh to port 2220
+1
+![Alt text](image-2.png)
+Step 2: Display the files using the command ls -la
+
+2
+![Alt text](image.png)
+Step 3: cat the readme file
+3
+![Alt text](image-1.png)
+Password: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
